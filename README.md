@@ -120,7 +120,7 @@ const camera = useCamera();
 </TouchableOpacity>
 ```
 
-**Erreur dans src/screens/Chat/ChatComponent/CustomPdf/index.js**
+**13/Erreur dans src/screens/Chat/ChatComponent/CustomPdf/index.js**
 
 **Bloc de code :**
 ```javascript
@@ -163,7 +163,7 @@ Une assignation ou un appel de fonction était attendu à la place d'une express
 ```
 Cette solution proposée corrige l'erreur en remplaçant les accolades `{}` par des parenthèses `()` à l'intérieur de la propriété `renderActivityIndicator`, garantissant qu'elle retourne le composant `ActivityIndicator`.
 
-**Erreur dans src/screens/Home/home.style.js**
+**14/Erreur dans src/screens/Home/home.style.js**
 
 **Bloc de code :**
 ```javascript
@@ -190,7 +190,7 @@ alignItems: 'center',
 ```
 
 
-**Erreur dans src/screens/LaunchedMission/checkIn.js**
+**15/Erreur dans src/screens/LaunchedMission/checkIn.js**
 
 **Bloc de code :**
 ```javascript
@@ -252,7 +252,7 @@ Cette fonction n'attend aucun argument, mais 1 a été fourni.
 ```
 
 
-**Erreur dans src/screens/LaunchedMission/checkOut.js**
+**16/Erreur dans src/screens/LaunchedMission/checkOut.js**
 
 **Bloc de code :**
 ```javascript
@@ -313,6 +313,15 @@ Cette fonction n'attend aucun argument, mais 1 a été fourni.
     </FredokaText>
 </TouchableOpacity>
 ```
+
+**17/ problem dans la récuperation d'une liste.
+
+Lors de la récupération d'une liste, vous devriez créer une variable appelée 'isLoading' pour gérer l'état de chargement. De plus, la mise en place d'une pagination est essentielle, surtout lorsqu'il s'agit d'un grand ensemble de données comme 1000 lignes, car cela permet d'éviter que l'application ne devienne lente.
+
+**18/problème de notification
+le token de notification devrait être supprimé de la base de données lorsque l'utilisateur se déconnecte Car si le token n'est pas supprimé, l'utilisateur pourrait recevoir des notifications d'un autre compte
+
+
 
 
 
